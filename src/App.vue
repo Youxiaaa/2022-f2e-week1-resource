@@ -20,6 +20,16 @@ startAnimation()
     </div>
     <!-- 電腦版 -->
     <div class="animate__container opacity-0 hidden xl:block">
+      <!-- 地圖 -->
+      <img src="./assets/images/map-1.png" class="fixed bottom-5% left-2% map-1" />
+      <img src="./assets/images/map-2.png" class="fixed bottom-5% left-2% map-2 hidden" />
+      <img src="./assets/images/map-3.png" class="fixed bottom-5% left-2% map-3 hidden" />
+      <img src="./assets/images/map-4.png" class="fixed bottom-5% left-2% map-4 hidden" />
+      <img src="./assets/images/map-5.png" class="fixed bottom-5% left-2% map-5 hidden" />
+      <img src="./assets/images/map-6.png" class="fixed bottom-5% left-2% map-6 hidden" />
+      <img src="./assets/images/map-7.png" class="fixed bottom-5% left-2% map-7 hidden" />
+      <img src="./assets/images/map-8.png" class="fixed bottom-5% left-2% map-8 hidden" />
+      <img src="./assets/images/map.png" class="fixed bottom-5% left-2% map hidden" />
       <!-- 左側選單 -->
       <sideBar />
       <!-- 會員按鈕 -->

@@ -180,6 +180,12 @@ function useTimeLine() {
       right: '25%',
       bottom: '-20px'
     }, '<')
+    .to('.map-1', {
+      display: 'none'
+    })
+    .to('.map-2', {
+      display: 'block'
+    })
     .to('.talking-1', {
       opacity: '1'
     }, '<')
@@ -235,6 +241,12 @@ function useTimeLine() {
       opacity: '0',
       scale: '0'
     }, '<')
+    .to('.map-2', {
+      display: 'none'
+    })
+    .to('.map-3', {
+      display: 'block'
+    })
     .to('.talking-2', {
       opacity: '1'
     })
@@ -283,6 +295,12 @@ function useTimeLine() {
       y: '20px'
     }, '<')
     //
+    .to('.map-3', {
+      display: 'none'
+    })
+    .to('.map-4', {
+      display: 'block'
+    })
     .to('.talking-3', {
       opacity: '1',
       scale: '1'
@@ -325,6 +343,12 @@ function useTimeLine() {
       scale: '0'
     })
     // 跑者放大
+    .to('.map-4', {
+      display: 'none'
+    })
+    .to('.map-5', {
+      display: 'block'
+    })
     .to('.runner', {
       scale: '1'
     }, '<')
@@ -376,6 +400,12 @@ function useTimeLine() {
     .to('.line__container', {
       opacity: '0'
     }, '<')
+    .to('.map-5', {
+      display: 'none'
+    })
+    .to('.map-6', {
+      display: 'block'
+    })
     .to('.anime__img--1', {
       left: '0%'
     })
@@ -418,6 +448,15 @@ function useTimeLine() {
     .to('.talking-4', {
       opacity: '1'
     })
+    .to('.map-6', {
+      display: 'none'
+    })
+    .to('.map-7', {
+      display: 'none'
+    })
+    .to('.map-8', {
+      display: 'block'
+    })
     .fromTo('.award__content', {
       opacity: '0',
       x: '-50px'
@@ -454,6 +493,9 @@ function useTimeLine() {
     .to('.talking-4', {
       opacity: '0'
     }, '<')
+    .to('.map', {
+      display: 'block'
+    })
     .to('.road', {
       width: '75%'
     })
@@ -472,6 +514,12 @@ function useTimeLine() {
       bottom: '0%',
       left: '5%',
       opacity: '1'
+    })
+    .to('.map-7', {
+      display: 'none'
+    })
+    .to('.map-8', {
+      display: 'none'
     })
     .to('.right__tree--2', {
       bottom: '0%',
@@ -563,6 +611,9 @@ function useTimeLine() {
     }, '<')
     .to('.finish__line__right', {
       opacity: '1'
+    }, '<')
+    .to('.map', {
+      opacity: '0'
     }, '<')
     .fromTo('.finish', {
       scale: '1.8'
