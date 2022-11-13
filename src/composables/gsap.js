@@ -448,9 +448,6 @@ function useTimeLine() {
     .to('.talking-4', {
       opacity: '1'
     })
-    .to('.map-6', {
-      display: 'none'
-    })
     .to('.map-7', {
       display: 'none'
     })
@@ -493,6 +490,12 @@ function useTimeLine() {
     .to('.talking-4', {
       opacity: '0'
     }, '<')
+    .to('.map-6', {
+      display: 'none'
+    })
+    .to('.map-8', {
+      display: 'none'
+    })
     .to('.map', {
       display: 'block'
     })
@@ -514,12 +517,6 @@ function useTimeLine() {
       bottom: '0%',
       left: '5%',
       opacity: '1'
-    })
-    .to('.map-7', {
-      display: 'none'
-    })
-    .to('.map-8', {
-      display: 'none'
     })
     .to('.right__tree--2', {
       bottom: '0%',
