@@ -87,7 +87,7 @@ function useTimeLine() {
     scrollTrigger: {
       trigger: '.phase1',
       start: 'top top',
-      end: '+=8000px',
+      end: '+=25000px',
       pin: true,
       scrub: true
     }
